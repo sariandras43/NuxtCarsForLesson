@@ -1,5 +1,5 @@
 <template>
-  <v-app-bar :elevation="2" scroll-behavior="hide" scroll-threshold="588" rounded>
+  <v-app-bar :elevation="2" scroll-behavior="hide" color="emerald" scroll-threshold="588">
     <v-app-bar-title>AutóMester</v-app-bar-title>
     <v-spacer></v-spacer>
     <v-btn to="/cars" variant="text">Autók</v-btn>
