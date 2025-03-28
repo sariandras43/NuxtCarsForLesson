@@ -11,9 +11,9 @@ export default defineNuxtPlugin((app) => {
         myCustomTheme: {
           dark: false,
           colors: {
-            emerald: '#11B254',
+            emerald: '#241023',
             space: '#404E4D',
-            background: '#ADB6C4',
+            background: '#CCB7AE',
             something: '#00ff00',
           },
         },

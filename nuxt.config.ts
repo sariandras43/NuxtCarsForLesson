@@ -16,9 +16,14 @@ export default defineNuxtConfig({
         config.plugins.push(vuetify({ autoImport: true }))
       })
     },
-    //...
+    '@pinia/nuxt'
   ],
-
+  devServer:{
+    port:8000
+  },
+  app: {
+    pageTransition: { name: 'page', mode: 'out-in' }
+  },
   vite: {
     vue: {
       template: {
@@ -26,6 +31,5 @@ export default defineNuxtConfig({
       },
     },
   },
-
   compatibilityDate: '2025-03-27',
 })

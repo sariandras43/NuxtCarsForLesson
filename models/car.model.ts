@@ -3,6 +3,7 @@ export interface CarModel {
     make: string
     model: string
     year: number
+    description? :string
     image_url?: string
   }
   
