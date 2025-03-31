@@ -13,7 +13,7 @@ export default defineNuxtPlugin((app) => {
           colors: {
             emerald: '#241023',
             space: '#404E4D',
-            background: '#CCB7AE',
+            background: '#F0F8EA',
             something: '#00ff00',
           },
         },
